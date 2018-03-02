@@ -15,17 +15,10 @@
   <script src="/js/canvas-to-blob.min.js"></script>
   <script src="/js/introHCI.js"></script>
   <script src="/js/camera.js"></script>
+  <script src="/js/googleMaps.js"></script>
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="https://code.jsquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <script>
-    $(function(){
-      $("div.box").bind("tabhold", tapholdHandler);
-      function tapholdHandler(event) {
-        $(event.target).addClass("taphold")
-      }
-    });
-  </script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   <!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,7 +31,7 @@
 
 <body>
   <link href="/css/introHCI.css" rel="stylesheet">
-  <script src="/js/googlemaps.js"></script>
+  <script src="/js/googleMaps.js"></script>
   {{> googleMaps}}
   <div id="pageone" class="container">
     <!-- h1 through h6 are headers. The higher the number, the smaller the header -->
